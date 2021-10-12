@@ -4164,13 +4164,13 @@ Object.defineProperty(exports, "__esModule", {
 exports.clearScreen = clearScreen;
 exports.getDataFromServer = getDataFromServer;
 
-require("./css/styles.css");
+require("/css/styles.css");
 
-require("./js/events");
+require("/js/events");
 
-var _request = require("./js/request");
+var _request = require("/js/request");
 
-var _config = _interopRequireDefault(require("./config.json"));
+var _config = _interopRequireDefault(require("/config.json"));
 
 var _notiflix = _interopRequireDefault(require("notiflix"));
 
@@ -4273,7 +4273,7 @@ function renderCard(cardsArrayToRender) {
 }
 
 ;
-},{"./css/styles.css":"css/styles.css","./js/events":"js/events.js","./js/request":"js/request.js","./config.json":"config.json","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.1.0.min.js","simplelightbox":"../node_modules/simplelightbox/dist/simple-lightbox.modules.js","simplelightbox/dist/simple-lightbox.min.css":"../node_modules/simplelightbox/dist/simple-lightbox.min.css"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"/css/styles.css":"css/styles.css","/js/events":"js/events.js","/js/request":"js/request.js","/config.json":"config.json","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.1.0.min.js","simplelightbox":"../node_modules/simplelightbox/dist/simple-lightbox.modules.js","simplelightbox/dist/simple-lightbox.min.css":"../node_modules/simplelightbox/dist/simple-lightbox.min.css"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -4301,7 +4301,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54946" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62087" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,7 +1,7 @@
-import './css/styles.css';
-import './js/events';
-import { getRequest } from './js/request';
-import config from './config.json';
+import '/css/styles.css';
+import '/js/events';
+import { getRequest } from '/js/request';
+import config from '/config.json';
 
 import Notiflix from 'notiflix';
 import SimpleLightbox from "simplelightbox";
